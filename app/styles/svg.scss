@@ -1,3 +1,19 @@
+$COLOR_GRAD_1: #0099cc;
+$COLOR_GRAD_2: #00ffa2;
+
+// .header--gradient{
+//   position:absolute;
+//   top:0;
+//   clip-path: url(#headerSvg);
+//   width:100%;
+//   height: 500px;
+//   background-image:
+//     linear-gradient(
+//       65deg,
+//       $COLOR_GRAD_2 40%,
+//       $COLOR_GRAD_1 60%
+//     );
+// }
 .poly{
   fill:none;
   stroke:none;
@@ -8,6 +24,10 @@
   fill: #7c9a92;
   stroke:#7c9a92;
   stroke-width:2px;
+  fill: radial-gradient(
+      yellow,
+      #f06d06
+    );
 }
 
 .poly02{

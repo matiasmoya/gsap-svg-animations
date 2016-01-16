@@ -21,7 +21,6 @@ var headerAnimations = function(){
     TweenLite.from(svg2, 1, {
       rotationY:-180,  
       transformOrigin:"100% 50% 100px", 
-      autoAlpha:0, 
       opacity:0
     })
   );
@@ -42,4 +41,4 @@ var headerAnimations = function(){
   leftSide.play();
 }; //headerAnimations()
 
-window.on('load', headerAnimations());
+window.onload = headerAnimations;
