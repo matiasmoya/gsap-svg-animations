@@ -21,29 +21,25 @@ $COLOR_GRAD_2: #00ffa2;
 }
 
 .poly01{
-  fill: #7c9a92;
-  stroke:#7c9a92;
+  fill: #2098D1;
+  stroke:#2098D1;
   stroke-width:2px;
-  fill: radial-gradient(
-      yellow,
-      #f06d06
-    );
 }
 
 .poly02{
-  fill: #3f5b68;
-  stroke:#3f5b68;
+  fill: url(#grad1);
+  stroke:url(#grad1);
   stroke-width:2px;
 }
 
 .poly03{
-  fill: #536d6c;
-  stroke:#536d6c;
+  fill: url(#grad2);
+  stroke:url(#grad2);
   stroke-width:2px;
 }
 
 .poly04{
-  fill: #314448;
-  stroke:#314448;
+  fill: #40FA96;
+  stroke:#40FA96;
   stroke-width:2px;
 }
